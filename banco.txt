@@ -1,0 +1,20 @@
+Create database sistema;
+use sistema;
+
+Create TABLE clientes (
+nome VARCHAR(200),
+nascimento DATE,
+sexo VARCHAR(10),
+estadoCivil VARCHAR(10),
+email VARCHAR(200),
+ddd1 INT(2),
+telefone1 int (9),
+tipo1 VARCHAR (11),
+ddd2 INT (2),
+telefone2 int (9),
+tipo2 VARCHAR (11),
+ddd3 INT (2),
+telefone3 int (9),
+tipo3 VARCHAR (11),
+obs text
+);
